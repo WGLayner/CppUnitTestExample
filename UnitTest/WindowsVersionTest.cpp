@@ -1,5 +1,6 @@
-#include "stdafx.h"
+// Headers for CppUnitTest
 #include "CppUnitTest.h"
+#include "windows.h"
 
 #include "../CppUnitTestExample/WindowsVersion.h"
 
