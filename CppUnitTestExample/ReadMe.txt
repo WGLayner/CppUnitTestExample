@@ -1,0 +1,1 @@
+Simple example demonstrating unit testing with the template mocking pattern.
