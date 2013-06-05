@@ -6,7 +6,7 @@ template<typename W>
 class WindowsVersionT
 {
 public:
-	typedef enum
+	enum WindowsVersionValue
 	{
 		WindowsVista,
 		WindowsServer2008,
@@ -15,7 +15,7 @@ public:
 		WindowsServer2012,
 		Windows8,
 		Unknown
-	} WindowsVersionValue;
+	};
 
 	WindowsVersionT()
 		: value_(Unknown)
