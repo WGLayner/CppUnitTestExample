@@ -37,7 +37,7 @@ public:
 					value_ = WindowsServer2008;
 			}
 
-			if ( 1 == osvi.dwMinorVersion )
+			else if ( 1 == osvi.dwMinorVersion )
 			{
 				if( VER_NT_WORKSTATION == osvi.wProductType )
 					value_ = Windows7;
@@ -45,7 +45,7 @@ public:
 				value_ = WindowsServer2008R2;
 			}
 
-			if ( 2 == osvi.dwMinorVersion )
+			else if ( 2 == osvi.dwMinorVersion )
 			{
 				if( VER_NT_WORKSTATION == osvi.wProductType )
 					value_ = Windows8;
